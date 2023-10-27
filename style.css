@@ -1,3 +1,8 @@
+@font-face{
+    font-family: buttermilk;
+    src:url(./Buttermilk.woff2)
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -53,21 +58,22 @@ html body{
 }
 
 .title h1{
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 50px;
     color: #dcdcdc;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: poppins;
+    font-family: buttermilk;
 }
 .title h2{
-    font-size: 25px;
+    font-size: 30px;
     color:#0b1431;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .5s;
+    font-family: buttermilk;
 }
 
 .title h2:hover{
